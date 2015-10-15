@@ -1,0 +1,18 @@
+.block {
+    background-color: #1a6577;
+    border-radius: 4px;
+     /** min-height: 15px;
+     margin-left: 75px;
+     margin-right: 15px; */
+}
+.head {
+    vertical-align: middle;
+    text-align: center;
+    font-size: 35px;
+    min-height: 65px;
+}
+.img {
+    display: block;
+    max-height: inherit;
+    max-width: inherit;
+}
