@@ -7,6 +7,15 @@
     <title>Page!</title>
 </head>
 <body>
+
+<div class="modal fade bs-example-modal-lg" id="mod1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            ...
+        </div>
+    </div>
+</div>
+
 <header class="head">OUR PROJECT!</header>
 <div class="row">
     <div class="col-md-2 col-md-offset-1 block">
@@ -14,13 +23,21 @@
             <img src="f1.jpg" class="img">
         </div>
         <div class="row">
-            <img src="ava1.jpg" class="img-thumbnail img-circle ava">
+            <img src="ava1.jpg" id="avp" class="img-thumbnail img-circle ava" >
         </div>
+
     </div>
     <div class="col-md-4 col-md-offset-1 block">two</div>
     <div class="col-md-2 col-md-offset-1 block">three</div>
 </div>
+<script src="jquery.min.js"></script>
+<!-- ВАЖНО! Сначала грузим jQuery! Потом не забываем о JS файле Bootstrap-->
+<script type="text/javascript" src="bootstrap-3.3.5-dist/js/bootstrap.js"></script>
 <script type="text/javascript" src="script.js"></script>
-<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+    $("#avp").click(function() {
+        $('#mod1').modal('show');
+    });
+</script>
 </body>
 </html>
