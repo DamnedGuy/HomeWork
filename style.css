@@ -37,3 +37,92 @@ h4 {
     border: 1px solid #aeacaf;
     border-radius: 4px;
 }
+.wid {
+    max-width: 70%;
+}
+.widd {
+    min-height: 60px;
+}
+.inp {
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    display: block;
+}
+
+/* Ниже Лешин код с навбаром */
+
+.imgmain{
+    height: 23px;
+    width: auto;
+}
+
+.nav1{
+    background: #0ca5d2;
+}
+
+.ssilka{
+    margin-left: -71px;
+    margin-top: 21%;
+    color: white;
+}
+
+.drssilki{
+    margin-left: -120px;
+    margin-top: 21%;
+    color: #dddddd;
+}
+
+.drssilki2{
+    margin-left: -165px;
+    margin-top: 21%;
+    color: #dddddd;
+}
+
+.drssilki3{
+    margin-left: -188px;
+    margin-top: 21%;
+    color: #dddddd;
+}
+
+#search{
+    height: 23px;
+    width: 180px;
+    margin-top: 8%;
+    margin-left: -70px;
+}
+
+#kolokol{
+    height: 40px;
+    width: auto;
+    margin-top: 16%;
+    left: 10%;
+    color: white;
+}
+
+#imgsmall{
+    height: 35px;
+    width: auto;
+    margin-top: 8%;
+    margin-left: 20px;
+}
+
+#bttn {
+    /*display: none;
+    background-color: #337ab7;
+    color: white;*/
+    display: block;
+    position: fixed;
+    left: 50%;
+    margin-left: -35.5px;
+    border: 1px solid #337ab7;
+    color: #337ab7;
+    background: white;
+    font-weight: normal;
+}
+
+#bttn:hover{
+    background: #337ab7;
+    color: white;
+    color: #dff0d8;
+}
