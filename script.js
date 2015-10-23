@@ -24,3 +24,4 @@ function change(){
 if (localStorage.getItem('a')) {
     change();
 };
+onclick.change ();
